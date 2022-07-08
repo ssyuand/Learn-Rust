@@ -504,7 +504,7 @@ print(&sv[1..3]); // 打印v[1]和v[2]
   - [＆ vs ref vs ＊operator](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 解答 ref 跟 ＆ 的差別！
 
 # [Expressions](https://hackmd.io/fAnfB65TSA6M8To1Yq3amA) <- click here
-    
+  - [Define Instance Methods ](https://hackmd.io/fAnfB65TSA6M8To1Yq3amA?view#Define-Instance-Methods--%E5%AF%A6%E4%BE%8B%E6%96%B9%E6%B3%95-%EF%BC%9A) 解答靜態函數，方法 如何使用...呼叫等
 # [Error Handling](https://hackmd.io/ql1gBH4XS7GHz0Jq7Y2uFQ) <- click here
   - [Ok / Ok / Some](https://hackmd.io/ql1gBH4XS7GHz0Jq7Y2uFQ#Ok--Ok--Some) 解釋 Option<T> Result<T, E> 的用途！
 # [Structs](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ) <- click here
