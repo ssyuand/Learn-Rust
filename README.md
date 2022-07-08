@@ -500,7 +500,7 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 # [Ownership](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg) <- click here
   - [borrow](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#borrow) 忘記常常回來看，配合 Reference [ref](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 文檔一起使用 效果更好。
   - [Copy Types](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
-
+      - 但是對於棧上的數據，就是會直接copy數據，並不會存在這樣的控制權移交的情況。棧上的數據實際是擁有copy trait，如果一個類型擁有Copy trait，一個舊的變量在（重新）賦值後仍然可用。
 # [Reference](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ) <- click here
   - [＆ vs ref vs ＊operator](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 解答 ref 跟 ＆ 的差別！
 
