@@ -498,15 +498,15 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 我們經常把 &[T] 或 &str 這樣的引用類型稱為切片，其實是有點偷懶了。實際上，應該稱它們為對切片的引用。不過因為提到切片基本上都是指對它的引用，所以也就用“切片”來指代“切片引用”了。
 
 # [Ownership](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg) <- click here
-  [Copy Types](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
+  - [Copy Types](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
 
 # [Reference](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ) <- click here
-  [＆ vs ref vs ＊operator](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A)
+  - [＆ vs ref vs ＊operator](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A)
 
 # [Expressions](https://hackmd.io/fAnfB65TSA6M8To1Yq3amA) <- click here
     
 # [Error Handling](https://hackmd.io/ql1gBH4XS7GHz0Jq7Y2uFQ) <- click here
-    
+  - [Ok / Ok / Some](https://hackmd.io/ql1gBH4XS7GHz0Jq7Y2uFQ#Ok--Ok--Some)  
 # [Structs](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ) <- click here
-    
+  - [細說 Self self 差別](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ#%E7%B4%B0%E8%AA%AA-Self-self-%E5%B7%AE%E5%88%A5%EF%BC%9A)
 # [Enums and Patterns](https://hackmd.io/5sq3sQj5R_OYTMqlUvdxeg) <- click here
