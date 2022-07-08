@@ -3,7 +3,6 @@
 
 ## Reference documents:
 
-Option, Vec, Result, String
 [Rust core... - sc](https://rustwiki.org/zh-CN/core/index.html)
 [Rust core... - en](https://doc.rust-lang.org/core/)
 
