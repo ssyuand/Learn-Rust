@@ -498,7 +498,7 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 我們經常把 &[T] 或 &str 這樣的引用類型稱為切片，其實是有點偷懶了。實際上，應該稱它們為對切片的引用。不過因為提到切片基本上都是指對它的引用，所以也就用“切片”來指代“切片引用”了。
 
 # [Ownership](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg) <- click here
-  - [borrow](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#borrow) 忘記常常回來看，配合 Reference [ref](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 文檔一起使用 效果更好。
+  - [borrowing](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#borrow) 忘記常常回來看，配合 Reference [ref](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 文檔一起使用 效果更好。
   - [Copy Types](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
       - 在 heap 上有分配空間的容器會 Move， 對於 stack 上的數據，就是會直接copy數據，並不會存在這樣的控制權移交的情況。stack 上的數據實際是擁有copy trait，如果一個類型擁有Copy trait，一個舊的變量在（重新）賦值後仍然可用。
 # [Reference](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ) <- click here
