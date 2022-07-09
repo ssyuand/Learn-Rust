@@ -508,3 +508,9 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 # [Structs](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ)
     
 # [Enums and Patterns](https://hackmd.io/5sq3sQj5R_OYTMqlUvdxeg)
+    
+# [Traits and Generics](https://hackmd.io/31aelEXoSBGT3CpanX-tvg)
+    
+# [Operator Overloading](https://hackmd.io/9yrsK6GvQpef7DHR5vzXtw)
+    
+# [Utility Traits](https://hackmd.io/j_1VPEBOQ8KwA1hZ1B4k5g)
