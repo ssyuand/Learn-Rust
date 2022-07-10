@@ -505,8 +505,9 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 
 # [Ownership](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg) <- click here
   - [borrowing](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#borrowing) 忘記常常回來看，配合 Reference [ref](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 文檔一起使用 效果更好。
-  - [Copy Types](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
-      - 在 heap 上有分配空間的容器會 Move， 對於 stack 上的數據，就是會直接copy數據，並不會存在這樣的控制權移交的情況。stack 上的數據實際是擁有copy trait，如果一個類型擁有Copy trait，一個舊的變量在（重新）賦值後仍然可用。
+  - [Copy and copy](https://hackmd.io/pwwhZA8tQZWpU55o7GuTQg?view#Copy-Types-The-Exception-to-Moves)
+  - [Copy trait](https://hackmd.io/j_1VPEBOQ8KwA1hZ1B4k5g#Copy)
+      
 # [Reference](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ) <- click here
   - [＆ vs ref vs ＊operator](https://hackmd.io/fvRHsaQHRD6JTqSR93YSxQ?view#%EF%BC%86-vs-ref-vs-%EF%BC%8Aoperator%EF%BC%9A) 解答 ref 跟 ＆ 的差別！
 
@@ -520,3 +521,4 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 # [Traits and Generics](https://hackmd.io/31aelEXoSBGT3CpanX-tvg) <- click here
 # [Operator Overloading](https://hackmd.io/9yrsK6GvQpef7DHR5vzXtw) <- click here
 # [Utility Traits](https://hackmd.io/j_1VPEBOQ8KwA1hZ1B4k5g) <- click here
+# [Closures](https://hackmd.io/3ZO3Ykl_TXa3R4JdarO35Q)
