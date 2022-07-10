@@ -517,3 +517,6 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 # [Structs](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ) <- click here
   - [細說 Self self 差別](https://hackmd.io/copSHH3FTAuwdKiIZAPmcQ#%E7%B4%B0%E8%AA%AA-Self-self-%E5%B7%AE%E5%88%A5%EF%BC%9A) 解答各種 self 的疑惑？
 # [Enums and Patterns](https://hackmd.io/5sq3sQj5R_OYTMqlUvdxeg) <- click here
+# [Traits and Generics](https://hackmd.io/31aelEXoSBGT3CpanX-tvg) <- click here
+# [Operator Overloading](https://hackmd.io/9yrsK6GvQpef7DHR5vzXtw) <- click here
+# [Utility Traits](https://hackmd.io/j_1VPEBOQ8KwA1hZ1B4k5g) <- click here
