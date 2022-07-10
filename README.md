@@ -2,22 +2,25 @@
 
 
 ## Reference documents:
+- Module std::prelude:
+    - [std::prelude - sc](https://rustwiki.org/zh-CN/std/prelude/index.html)
+    - [std::prelude - en](https://doc.rust-lang.org/std/prelude/index.html)
+- Crate core:
+    - [Rust core... - sc](https://rustwiki.org/zh-CN/core/index.html)
+    - [Rust core... - en](https://doc.rust-lang.org/core/)
 
-[Rust core... - sc](https://rustwiki.org/zh-CN/core/index.html)
-[Rust core... - en](https://doc.rust-lang.org/core/)
-
-[Rust std... - sc](https://rustwiki.org/zh-CN/std/index.html)
-[Rust std... - en](https://doc.rust-lang.org/std/)
-
-[The Rust Reference - sc](https://rustwiki.org/zh-CN/reference/introduction.html)
-[The Rust Reference - en](https://doc.rust-lang.org/reference/introduction.html)
-
-[Rust by Example - sc](https://rustwiki.org/zh-CN/rust-by-example/)
-[Rust by Example - en](https://doc.rust-lang.org/rust-by-example/index.html)
-
-[The Rust Programming Language - tc](http://askeing.github.io/rust-book/README.html)
-[The Rust Programming Language - sc](https://rust-lang.tw/book-tw/)
-[The Rust Programming Language - en](https://doc.rust-lang.org/book/title-page.html)
+- The Rust Standard Library:
+    - [Rust std... - sc](https://rustwiki.org/zh-CN/std/index.html)
+    - [Rust std... - en](https://doc.rust-lang.org/std/)
+- The Rust Reference:
+    - [The Rust Reference - sc](https://rustwiki.org/zh-CN/reference/introduction.html)
+    - [The Rust Reference - en](https://doc.rust-lang.org/reference/introduction.html)
+- Rust By Example:
+    - [Rust by Example - sc](https://rustwiki.org/zh-CN/rust-by-example/)
+    - [Rust by Example - en](https://doc.rust-lang.org/rust-by-example/index.html)
+- The Rust Programming Language with contributions from the Rust Community
+    - [The Rust Programming Language - sc](https://rust-lang.tw/book-tw/)
+    - [The Rust Programming Language - en](https://doc.rust-lang.org/book/title-page.html)
 
 point:
 語句 vs 表達式
