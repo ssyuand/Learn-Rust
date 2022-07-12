@@ -522,3 +522,4 @@ print(&sv[1..3]); // 打印v[1]和v[2]
 # [Operator Overloading](https://hackmd.io/9yrsK6GvQpef7DHR5vzXtw) <- click here
 # [Utility Traits](https://hackmd.io/j_1VPEBOQ8KwA1hZ1B4k5g) <- click here
 # [Closures](https://hackmd.io/3ZO3Ykl_TXa3R4JdarO35Q)
+[move keyword](https://hackmd.io/3ZO3Ykl_TXa3R4JdarO35Q?both#Fn-Move-keyword)
